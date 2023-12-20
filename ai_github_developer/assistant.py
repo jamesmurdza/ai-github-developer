@@ -138,7 +138,7 @@ def create_assistant():
     """,
         name="AI Developer",
         tools=functions,
-        model="gpt-4-1106-preview",
+        model="mistralai/mixtral-8×7b-instruct",
     )
 
     print("AI Developer Assistant created, copy its id to .env file:")
